@@ -1,0 +1,296 @@
+body{
+	margin:0;
+	padding-top:0;
+	background-color:#FFF5EE;
+	
+}
+
+main{
+	width:100%;
+}
+
+
+#topo{
+    background-color:#cf856b;
+	width:100%;
+	height:40px;
+	display:block;
+	margin-left:0px;
+	float:0px;
+
+
+}
+
+.logo{
+	display:block;
+	margin-left:70px;
+	margin-top:50px;
+
+}
+
+h2{
+	color:00000;
+	font-family:Arial;
+	font-size:20px;
+	padding-left:1000px;
+	margin-top:-85px;
+	display:block;
+}
+
+
+#divBusca{
+  margin-left:288px;
+  margin-top:-65px;
+  background-color:#FFF5EE;
+  border-radius:50px 50px;
+  height:25px;
+  width:150px;
+}
+
+#txtBusca{
+	float:left;
+	background-color:#cf856b;
+	padding-left:15px;
+	font-style:italic;
+	font-size:18px;
+	border:none;
+	color:white;
+	height:38px;
+	width:700px;
+	border-radius:50px 50px;
+}
+
+#icones-header{
+	height:100px;
+	margin-left:1005px;
+	margin-top:-27px;
+
+	
+}
+
+.iconesR{
+	width:47px;
+	height:47px;
+	padding-left:37px;	
+
+}
+	
+.barra1{
+    margin-left:243px;
+	margin-top:110px;
+
+}
+
+section{
+	width:100%;
+	height:1000px;
+	float:left;
+}
+
+.gif{
+	margin-left:85px;
+}
+
+ /* estilo do Menu*/
+#menu{
+	background-color:#cf856b;
+	width:1100px;    /*tamanho da div do menu*/
+	height:1px;         /* tentativa de mudar a altura da div do Munu*/
+	border-radius:50% 50%;
+	margin-left:120px;
+}
+
+
+ul{
+	background-color:#cf856b; /* cor de fundo*/
+	display:flex; /* coloca um ao lado do outro*/
+	list-style:none; /* tira a bolinha da lista*/
+	padding-left:20px; /* localiza lugar da palavra*/	
+	font-size:10px;   /*tamanho da font*/
+	text-decoration:none; /* tirar o sublinhado da palavra*/
+	text-transform: uppercase; /*deixa todas as letras em muisculo*/
+	color:#000;          /*cor*/
+	font-family:Andale Mono, monospace;	
+	height:60px;
+}
+
+ul li{
+	display:block; /* deixa o elemento sem sair do lugar*/
+	padding:27px;
+	margin-left:25px; /*margem da esquerda*/
+	margin-right:15px;  /*margem da direita*/
+	margin-top:-15px;
+	font-size:17px;     /*tamanho da letra*/
+	text-decoration:none;
+
+	
+}
+
+ul li a{
+	color:#000;
+	text-decoration:none; 
+
+	width:25px;
+	height:25px;
+}
+
+ul li a:hover{
+	background:#cf856b;
+	padding:5px;
+}
+
+
+h2{
+	float:left;
+	font-family:Arial;
+	font-weight: bold; /*Deixando a palavra em Negrito*/
+} 
+
+
+
+
+.subtitulo{
+	margin-left:-468px;
+}
+	
+.grid-1-2{
+	width:300px;  /*ajustando as imagens*/
+	float: left;
+	margin-left:120px;
+	list-style:none;
+
+}
+
+
+.imagens:hover{
+	top:-4px;
+	box-shadow:0 20px 20px #cf856b;
+	transition: all .2s ease-in-out;
+}
+
+/*Propiedades do botão comprar*/
+input,textarea{
+	width:200px;
+	padding:10px;
+	color:black;
+	margin-left:30px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px; 
+	border: 1px solid;
+}
+
+/*propiedades do botão comprar*/
+input:hover, textarea:hover, input:focus, textarea:focus{
+	border-color:#1C1C1C;
+	box-shadow:5px 0px 9px 	#1C1C1C;
+	background-color:#ca997b;
+	color:black;
+	font-weight: bold;	
+}
+
+/*propiedades do botão comprar*/
+.submit input {
+	background-color:#ca997b;
+	height:40px;
+	width: 100px;
+	font-weight: bold;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:5px;
+	border: 1px solid;
+	color:;
+	
+}
+
+
+/*propiedades do botão comprar*/
+textarea{ 
+	width:400px;
+	height:120px;
+	line-height: 20px;
+	max-width: 400px;	
+}
+
+form{
+	font-family:Verdana;
+	font-size:15px;
+	background-color:#CF856B;
+	width:850px; /* largura do form*/
+	height:510px;
+	text-align:Center;
+	margin-left:-835px;
+	
+}
+
+.SC{
+   color:#ffffff; /* Cor do titulo "Seja Cliente"*/
+   font-size:37px;
+   font-family:Arial Narrow;
+   
+}
+
+
+.h3sc{
+   font-size:22px;
+}
+
+	
+label {
+   margin-left:-100px; /*Margem da label e dos nomes fora*/
+   font-size:20px;   /*tamanho das letras*/
+   
+}
+
+.submit input {
+   background-color:#E4CCBD;
+   height:40px;
+   width:100px;  /* Ajustar tamanho do Botão entrar*/
+   font-weight: bold;
+   -webkit-border-radius: 5px;
+   -moz-border-radius:5px;
+   border: 1px solid;
+   
+   margin-top:-2000px;
+}
+
+
+/*botão de voltar ao topo*/
+.btn{
+	margin-right:05px;
+	display:flex;
+	align-items: center;
+	border-radius: 50px 50px 50px 50px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 50px;
+	height:50px;
+	background-color:#cf856b;
+	text-decoration:none;
+	justify-content: center;
+	bottom: 10px;
+	color: black;
+	
+}
+
+#fim{
+	font-family:Arial;
+	font-size:15px;
+	color: #FFFFFF;
+	width:1349px;
+	height:50px;
+	background-color:#cf856b; 
+	text-align:center; 
+	line-height:50px;
+	margin-top:6090px;
+}
+
+
+
+
+
+
+
+
+
+
+
